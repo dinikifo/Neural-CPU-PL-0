@@ -108,6 +108,16 @@ For a complete reference, see **docs/MANUAL.md**.
 - Neural modes can change program behavior (especially in loops). Keep fallbacks on if you want stability.
 - Fixed‑point intrinsics are clamped to safe input/output ranges (documented in the manual).
 
+## AI-Assisted Creation & Provenance
+
+Some parts of this repository were created or refined with the assistance of large language models (LLMs) at the author’s direction. The author reviewed and integrated the results.
+
+The intent is to place this work as completely as possible into the public domain via CC0-1.0 (see License below).
+
+If you believe any snippet inadvertently reproduces third-party copyrighted code in a way that conflicts with the license, please open an issue with details (file, lines, source link). We will promptly rewrite or remove the material.
+
+Privacy note: Don’t paste sensitive or proprietary material into issues or pull requests; treat prompts/logs as public.
+
 ## License (Public Domain)
 
 This project is released into the **public domain** under **CC0‑1.0**.  
