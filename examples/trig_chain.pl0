@@ -1,0 +1,11 @@
+program trigChain;
+var x, y, yi;
+begin
+  // x in radians, fixed-point
+  x := pi;
+  // y = cos(x) + sin(x)
+  y := cos(x) + sin(x);
+  yi := int(y);
+  push y;
+  push yi;
+end.

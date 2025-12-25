@@ -1,0 +1,18 @@
+program fixedpointArea;
+var r, a, ai;
+begin
+  // r = 2.5 (fixed-point)
+  r := 2.5;
+
+  // a = pi * r * r  (fixed-point)
+  // Note: fixed-point multiply needs a rescale by dividing by 1.0 (= fxScale).
+  a := pi * r;
+  a := a / 1.0;
+  a := a * r;
+  a := a / 1.0;
+
+  // Push both the fixed-point value and the integer approximation.
+  ai := int(a);
+  push a;
+  push ai;
+end.

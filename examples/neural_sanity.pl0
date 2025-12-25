@@ -1,0 +1,10 @@
+program neuralSanity;
+var a, b, c, d;
+begin
+  a := 123;
+  b := 77;
+  c := a * b;
+  d := c / 10;
+  push c;
+  push d;
+end.

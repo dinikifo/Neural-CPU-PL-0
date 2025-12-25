@@ -1,0 +1,8 @@
+program helloStack;
+var x, y, z;
+begin
+  x := 40;
+  y := 2;
+  z := x + y;
+  push z;
+end.
